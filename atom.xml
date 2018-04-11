@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>The Zone We Explore</title>
+  <title>吴佐强的博客</title>
   <icon>https://www.gravatar.com/avatar/71113fb6279f3a7f228047c11e98560b</icon>
-  <subtitle>The Zone We Explore</subtitle>
+  <subtitle>追求技术的极致就是追求艺术</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wuzuoqiang.com/"/>
-  <updated>2018-03-15T07:31:52.390Z</updated>
+  <updated>2018-04-11T07:16:55.370Z</updated>
   <id>http://www.wuzuoqiang.com/</id>
   
   <author>
-    <name>vacker</name>
+    <name>吴佐强</name>
     <email>wu@wuzuoqiang.com</email>
   </author>
   
@@ -21,7 +21,7 @@
     <link href="http://www.wuzuoqiang.com//posts/5c2fafc7/"/>
     <id>http://www.wuzuoqiang.com//posts/5c2fafc7/</id>
     <published>2018-03-15T05:44:35.000Z</published>
-    <updated>2018-03-15T07:31:52.390Z</updated>
+    <updated>2018-04-11T07:16:55.370Z</updated>
     
     <content type="html"><![CDATA[<h3 id="这是一篇测试文章"><a href="#这是一篇测试文章" class="headerlink" title="这是一篇测试文章"></a>这是一篇测试文章</h3>]]></content>
     
