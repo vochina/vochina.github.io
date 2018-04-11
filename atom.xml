@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wuzuoqiang.com/"/>
-  <updated>2018-04-11T09:54:01.188Z</updated>
+  <updated>2018-04-11T09:58:47.446Z</updated>
   <id>http://www.wuzuoqiang.com/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="http://www.wuzuoqiang.com//posts/d361ebf7/"/>
     <id>http://www.wuzuoqiang.com//posts/d361ebf7/</id>
     <published>2018-04-11T09:53:16.000Z</published>
-    <updated>2018-04-11T09:54:01.188Z</updated>
+    <updated>2018-04-11T09:58:47.446Z</updated>
     
-    <content type="html"><![CDATA[<p>1.安装：略 2.设置用户名和Email地址</p><p>git config –global user.name “your name”<br>git config –global user.email “<a href="mailto:email@xxxxx.com" target="_blank" rel="noopener">email@xxxxx.com</a>“<br>3.创建版本库（工作区） 在你需要建立版本库的文件夹执行 git init 命令建立仓库</p><p>git init<br>4.把文件添加到仓库（暂存区） git add 文件名<br>把当前文件夹中的所有修改都提交到暂存区</p><p>git add .<br>5.把文件提交到仓库（当前分支）</p><p>git commit -m “提交的说明”<br>6.查看仓库当前状态</p><p>git status<br>7.文件有修改但还未提交（git add 文件名），查看修改的不同之处</p><p>git diff<br>8.显示提交日志</p><p>git log<br>9.版本回退</p><p>HEAD是当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，往上50个版本就写成HEAD~50</p><p>git reset –hard HEAD^<br>git reset –hard 版本号<br>10.显示提交过的命令，可以查看版本号</p><p>git reflog<br>11.还未提交到暂存区撤销工作区的修改</p><p>git checkout – 文件名<br>12.还未提交到仓库（当前分支）撤销修改到暂存区，再撤销到工作区</p><p>git reset HEAD 文件名<br>git checkout – 文件名<br>13.删除文件</p><p>直接删除后想还原</p><p>git checkout – 文件名<br>直接删除并且从版本库中删除</p><p>git rm 文件名<br>git commit -m “提交的说明”<br>还原，使用版本回退</p><p>git reset –hard 版本号<br>14.分支</p><p>创建分支 git branch 分支名字 切换分支 git checkout 分支名字 创建并切换分支 git checkout -b 分支名字 查看当前分支 git branch 把dev分支合并到master分支 git merge dev (git merge命令用于合并指定分支到当前分支) 删除分支 git branch -d 分支名字</p><p>15.远程仓库(先有本地库，后有远程库的时候，如何关联远程库)</p><p>创建sshkey</p><p>ssh-keygen -t rsa -C “用户邮箱”<br>用户主目录的.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，id_rsa.pub是公钥 关联远程仓库</p><p>git remote add origin 远程库地址<br>关联后，使用命令git push -u origin master第一次推送master分支的所有内容； 此后，每次本地提交后，就可以使用命令git push origin master推送最新修改</p><p>16.从远程库克隆一个本地库</p><p>git clone 远程库地址<br>git自动把本地的master分支和远程的master分支对应起来了 查看远程库的信息，用git remote，git remote -v显示更详细的信息</p><p>17.更新本地库</p><p>git pull<br>18.推送到远程库</p><p>git add<br>git commit<br>git push</p>]]></content>
+    <content type="html"><![CDATA[<p>1.安装：略 2.设置用户名和Email地址<br>、、、<br>git config –global user.name “your name”<br>git config –global user.email “<a href="mailto:email@xxxxx.com" target="_blank" rel="noopener">email@xxxxx.com</a>“<br>3.创建版本库（工作区） 在你需要建立版本库的文件夹执行 git init 命令建立仓库<br>、、、<br>git init<br>4.把文件添加到仓库（暂存区） git add 文件名<br>把当前文件夹中的所有修改都提交到暂存区</p><p>git add .<br>5.把文件提交到仓库（当前分支）</p><p>git commit -m “提交的说明”<br>6.查看仓库当前状态</p><p>git status<br>7.文件有修改但还未提交（git add 文件名），查看修改的不同之处</p><p>git diff<br>8.显示提交日志</p><p>git log<br>9.版本回退</p><p>HEAD是当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，往上50个版本就写成HEAD~50</p><p>git reset –hard HEAD^<br>git reset –hard 版本号<br>10.显示提交过的命令，可以查看版本号</p><p>git reflog<br>11.还未提交到暂存区撤销工作区的修改</p><p>git checkout – 文件名<br>12.还未提交到仓库（当前分支）撤销修改到暂存区，再撤销到工作区</p><p>git reset HEAD 文件名<br>git checkout – 文件名<br>13.删除文件</p><p>直接删除后想还原</p><p>git checkout – 文件名<br>直接删除并且从版本库中删除</p><p>git rm 文件名<br>git commit -m “提交的说明”<br>还原，使用版本回退</p><p>git reset –hard 版本号<br>14.分支</p><p>创建分支 git branch 分支名字 切换分支 git checkout 分支名字 创建并切换分支 git checkout -b 分支名字 查看当前分支 git branch 把dev分支合并到master分支 git merge dev (git merge命令用于合并指定分支到当前分支) 删除分支 git branch -d 分支名字</p><p>15.远程仓库(先有本地库，后有远程库的时候，如何关联远程库)</p><p>创建sshkey</p><p>ssh-keygen -t rsa -C “用户邮箱”<br>用户主目录的.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，id_rsa.pub是公钥 关联远程仓库</p><p>git remote add origin 远程库地址<br>关联后，使用命令git push -u origin master第一次推送master分支的所有内容； 此后，每次本地提交后，就可以使用命令git push origin master推送最新修改</p><p>16.从远程库克隆一个本地库</p><p>git clone 远程库地址<br>git自动把本地的master分支和远程的master分支对应起来了 查看远程库的信息，用git remote，git remote -v显示更详细的信息</p><p>17.更新本地库</p><p>git pull<br>18.推送到远程库</p><p>git add<br>git commit<br>git push</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;1.安装：略 2.设置用户名和Email地址&lt;/p&gt;
-&lt;p&gt;git config –global user.name “your name”&lt;br&gt;git config –global user.email “&lt;a href=&quot;mailto:email@xxxxx.com&quot;
+        &lt;p&gt;1.安装：略 2.设置用户名和Email地址&lt;br&gt;、、、&lt;br&gt;git config –global user.name “your name”&lt;br&gt;git config –global user.email “&lt;a href=&quot;mailto:email@xxxxx.c
       
     
     </summary>
