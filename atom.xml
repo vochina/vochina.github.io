@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wuzuoqiang.com/"/>
-  <updated>2018-05-07T15:10:06.735Z</updated>
+  <updated>2018-05-07T15:30:07.393Z</updated>
   <id>https://www.wuzuoqiang.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://www.wuzuoqiang.com//posts/4732cd9c/"/>
     <id>https://www.wuzuoqiang.com//posts/4732cd9c/</id>
     <published>2018-05-07T15:05:08.000Z</published>
-    <updated>2018-05-07T15:10:06.735Z</updated>
+    <updated>2018-05-07T15:30:07.393Z</updated>
     
-    <content type="html"><![CDATA[<p>1、用dump命令备份dbfile数据库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqldump -u root -p dbfile &gt; dbfile.sql</span><br></pre></td></tr></table></figure></p><p>2、用rsync从新服务器获得备份的文件（SCP或WGET也可以)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -avr root@myolddbserver:/home/mydumpfolder/dbfile.sql</span><br></pre></td></tr></table></figure></p><p>3、登陆新服务器的mysql客户端<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br></pre></td></tr></table></figure></p><p>4、建立数据库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create database dbfile;</span><br></pre></td></tr></table></figure></p><p>5、选择新数据库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use dbfile;</span><br></pre></td></tr></table></figure></p><p>6、还原备份数据<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source dbfile.sql</span><br></pre></td></tr></table></figure></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="1、用dump命令备份dbfile数据库"><a href="#1、用dump命令备份dbfile数据库" class="headerlink" title="1、用dump命令备份dbfile数据库"></a>1、用dump命令备份dbfile数据库</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqldump -u root -p dbfile &gt; dbfile.sql</span><br></pre></td></tr></table></figure><h3 id="2、用rsync从新服务器获得备份的文件（SCP或WGET也可以"><a href="#2、用rsync从新服务器获得备份的文件（SCP或WGET也可以" class="headerlink" title="2、用rsync从新服务器获得备份的文件（SCP或WGET也可以)"></a>2、用rsync从新服务器获得备份的文件（SCP或WGET也可以)</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -avr root@myolddbserver:/home/mydumpfolder/dbfile.sql</span><br></pre></td></tr></table></figure><p>3、登陆新服务器的mysql客户端<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br></pre></td></tr></table></figure></p><p>4、建立数据库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create database dbfile;</span><br></pre></td></tr></table></figure></p><p>5、选择新数据库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use dbfile;</span><br></pre></td></tr></table></figure></p><p>6、还原备份数据<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source dbfile.sql</span><br></pre></td></tr></table></figure></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;1、用dump命令备份dbfile数据库&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td 
+        &lt;h3 id=&quot;1、用dump命令备份dbfile数据库&quot;&gt;&lt;a href=&quot;#1、用dump命令备份dbfile数据库&quot; class=&quot;headerlink&quot; title=&quot;1、用dump命令备份dbfile数据库&quot;&gt;&lt;/a&gt;1、用dump命令备份dbfile数据库&lt;/h3&gt;&lt;
       
     
     </summary>
