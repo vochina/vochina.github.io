@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wuzuoqiang.com/"/>
-  <updated>2018-05-07T14:53:13.930Z</updated>
+  <updated>2018-05-07T14:54:09.123Z</updated>
   <id>https://www.wuzuoqiang.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://www.wuzuoqiang.com//posts/d5fd7130/"/>
     <id>https://www.wuzuoqiang.com//posts/d5fd7130/</id>
     <published>2018-05-07T14:44:12.000Z</published>
-    <updated>2018-05-07T14:53:13.930Z</updated>
+    <updated>2018-05-07T14:54:09.123Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；"><a href="#1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；" class="headerlink" title="1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；"></a>1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；</h5><h5 id="2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP"><a href="#2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP" class="headerlink" title="2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP"></a>2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mnt/nas</span><br><span class="line">mount -t nfs 192.168.1.8:/nfs/Public -o nolock /mnt/nas</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；"><a href="#1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；" class="headerlink" title="1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；"></a>1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；</h3><h3 id="2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP"><a href="#2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP" class="headerlink" title="2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP"></a>2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mnt/nas</span><br><span class="line">mount -t nfs 192.168.1.8:/nfs/Public -o nolock /mnt/nas</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h5 id=&quot;1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；&quot;&gt;&lt;a href=&quot;#1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；&quot; class=&quot;headerlink&quot; title=&quot;1、在路
+        &lt;h3 id=&quot;1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；&quot;&gt;&lt;a href=&quot;#1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；&quot; class=&quot;headerlink&quot; title=&quot;1、在路
       
     
     </summary>
