@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wuzuoqiang.com/"/>
-  <updated>2018-05-07T14:47:54.102Z</updated>
+  <updated>2018-05-07T14:48:30.912Z</updated>
   <id>https://www.wuzuoqiang.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.wuzuoqiang.com//posts/d5fd7130/"/>
     <id>https://www.wuzuoqiang.com//posts/d5fd7130/</id>
     <published>2018-05-07T14:44:12.000Z</published>
-    <updated>2018-05-07T14:47:54.102Z</updated>
+    <updated>2018-05-07T14:48:30.912Z</updated>
     
     <content type="html"><![CDATA[<p>#####1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；</p><p>#####2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mnt/nas</span><br><span class="line">mount -t nfs 192.168.1.8:/nfs/Public -o nolock /mnt/nas</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -35,6 +35,8 @@
     
     </summary>
     
+    
+      <category term="路由器 mycloud 迅雷离线下载" scheme="https://www.wuzuoqiang.com/tags/%E8%B7%AF%E7%94%B1%E5%99%A8-mycloud-%E8%BF%85%E9%9B%B7%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
