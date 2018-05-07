@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>吴佐强的博客</title>
   <icon>https://www.gravatar.com/avatar/71113fb6279f3a7f228047c11e98560b</icon>
-  <subtitle>追求技术的极致就是追求艺术</subtitle>
+  <subtitle>记录互联网技术的成长</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wuzuoqiang.com/"/>
