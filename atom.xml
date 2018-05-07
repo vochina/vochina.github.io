@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wuzuoqiang.com/"/>
-  <updated>2018-05-07T14:54:09.123Z</updated>
+  <updated>2018-05-07T14:59:55.818Z</updated>
   <id>https://www.wuzuoqiang.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决SSH连接超时自动断开问题</title>
+    <link href="https://www.wuzuoqiang.com//posts/17d0d485/"/>
+    <id>https://www.wuzuoqiang.com//posts/17d0d485/</id>
+    <published>2018-05-07T14:56:05.000Z</published>
+    <updated>2018-05-07T14:59:55.818Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1、编辑sshd-config文件"><a href="#1、编辑sshd-config文件" class="headerlink" title="1、编辑sshd_config文件"></a>1、编辑sshd_config文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Vim /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure><h3 id="2、找到以下配置并修改成如下"><a href="#2、找到以下配置并修改成如下" class="headerlink" title="2、找到以下配置并修改成如下"></a>2、找到以下配置并修改成如下</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ClientAliveInterval 60</span><br><span class="line">ClientAliveCountMax 3</span><br></pre></td></tr></table></figure><h3 id="3、保存并退出，重启sshd"><a href="#3、保存并退出，重启sshd" class="headerlink" title="3、保存并退出，重启sshd"></a>3、保存并退出，重启sshd</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;1、编辑sshd-config文件&quot;&gt;&lt;a href=&quot;#1、编辑sshd-config文件&quot; class=&quot;headerlink&quot; title=&quot;1、编辑sshd_config文件&quot;&gt;&lt;/a&gt;1、编辑sshd_config文件&lt;/h3&gt;&lt;figure class
+      
+    
+    </summary>
+    
+    
+      <category term="SSH" scheme="https://www.wuzuoqiang.com/tags/SSH/"/>
+    
+  </entry>
   
   <entry>
     <title>路由器挂载mycloud使用迅雷离线</title>
