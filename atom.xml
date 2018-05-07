@@ -5,9 +5,9 @@
   <subtitle>追求技术的极致就是追求艺术</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.wuzuoqiang.com/"/>
+  <link href="https://www.wuzuoqiang.com/"/>
   <updated>2018-04-11T10:15:50.293Z</updated>
-  <id>http://www.wuzuoqiang.com/</id>
+  <id>https://www.wuzuoqiang.com/</id>
   
   <author>
     <name>吴佐强</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>git 基本命令</title>
-    <link href="http://www.wuzuoqiang.com//posts/d361ebf7/"/>
-    <id>http://www.wuzuoqiang.com//posts/d361ebf7/</id>
+    <link href="https://www.wuzuoqiang.com//posts/d361ebf7/"/>
+    <id>https://www.wuzuoqiang.com//posts/d361ebf7/</id>
     <published>2018-04-11T09:53:16.000Z</published>
     <updated>2018-04-11T10:15:50.293Z</updated>
     
@@ -35,7 +35,7 @@
     </summary>
     
     
-      <category term="git" scheme="http://www.wuzuoqiang.com/tags/git/"/>
+      <category term="git" scheme="https://www.wuzuoqiang.com/tags/git/"/>
     
   </entry>
   
