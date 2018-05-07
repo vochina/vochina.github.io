@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wuzuoqiang.com/"/>
-  <updated>2018-05-07T15:01:31.421Z</updated>
+  <updated>2018-05-07T15:10:06.735Z</updated>
   <id>https://www.wuzuoqiang.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用mysqldump命令进行mysql数据库备份和还原</title>
+    <link href="https://www.wuzuoqiang.com//posts/4732cd9c/"/>
+    <id>https://www.wuzuoqiang.com//posts/4732cd9c/</id>
+    <published>2018-05-07T15:05:08.000Z</published>
+    <updated>2018-05-07T15:10:06.735Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、用dump命令备份dbfile数据库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqldump -u root -p dbfile &gt; dbfile.sql</span><br></pre></td></tr></table></figure></p><p>2、用rsync从新服务器获得备份的文件（SCP或WGET也可以)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -avr root@myolddbserver:/home/mydumpfolder/dbfile.sql</span><br></pre></td></tr></table></figure></p><p>3、登陆新服务器的mysql客户端<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br></pre></td></tr></table></figure></p><p>4、建立数据库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create database dbfile;</span><br></pre></td></tr></table></figure></p><p>5、选择新数据库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use dbfile;</span><br></pre></td></tr></table></figure></p><p>6、还原备份数据<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source dbfile.sql</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1、用dump命令备份dbfile数据库&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td 
+      
+    
+    </summary>
+    
+    
+      <category term="mysqldump" scheme="https://www.wuzuoqiang.com/tags/mysqldump/"/>
+    
+      <category term="mysql" scheme="https://www.wuzuoqiang.com/tags/mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>解决SSH连接超时自动断开问题</title>
