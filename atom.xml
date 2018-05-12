@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wuzuoqiang.com/"/>
-  <updated>2018-05-12T12:56:51.266Z</updated>
+  <updated>2018-05-12T13:21:14.186Z</updated>
   <id>https://www.wuzuoqiang.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>删除所有git仓库提交历史，变成一个新仓库</title>
+    <link href="https://www.wuzuoqiang.com//posts/d0fee68c/"/>
+    <id>https://www.wuzuoqiang.com//posts/d0fee68c/</id>
+    <published>2018-05-12T13:16:11.000Z</published>
+    <updated>2018-05-12T13:21:14.186Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.新建latest_branch分支<br><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout <span class="comment">--orphan latest_branch</span></span><br></pre></td></tr></table></figure></p><ol><li><p>加入仓库</p><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">add</span><span class="bash"> -A</span></span><br></pre></td></tr></table></figure></li><li><p>提交更改</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git</span> commit -am <span class="string">"something"</span></span><br></pre></td></tr></table></figure></li><li><p>删除master分支</p><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">git</span> <span class="keyword">branch </span>-D master</span><br></pre></td></tr></table></figure></li></ol><p>5.重命名当前分支为master<br><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">git</span> <span class="keyword">branch </span>-m master</span><br></pre></td></tr></table></figure></p><p>6.最后push到远程仓库<br><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">push</span> -f <span class="built_in">origin</span> master</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.新建latest_branch分支&lt;br&gt;&lt;figure class=&quot;highlight ada&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td cla
+      
+    
+    </summary>
+    
+    
+      <category term="git" scheme="https://www.wuzuoqiang.com/tags/git/"/>
+    
+      <category term="github" scheme="https://www.wuzuoqiang.com/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>同一电脑使用多个GitHub账号教程</title>
