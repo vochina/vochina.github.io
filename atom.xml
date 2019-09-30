@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wuzuoqiang.com/"/>
-  <updated>2019-09-30T05:58:37.611Z</updated>
+  <updated>2019-09-30T06:03:06.333Z</updated>
   <id>https://www.wuzuoqiang.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>ffmpeg 压缩视频命令</title>
+    <link href="https://www.wuzuoqiang.com//posts/b6dce5c1/"/>
+    <id>https://www.wuzuoqiang.com//posts/b6dce5c1/</id>
+    <published>2019-09-30T06:02:07.000Z</published>
+    <updated>2019-09-30T06:03:06.333Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -<span class="selector-tag">i</span> test<span class="selector-class">.mp4</span> -vcodec libx264 -preset veryslow  -crf <span class="number">28</span> test-output.mp4</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span cl
+      
+    
+    </summary>
+    
+    
+      <category term="ffmpeg 视频压缩" scheme="https://www.wuzuoqiang.com/tags/ffmpeg-%E8%A7%86%E9%A2%91%E5%8E%8B%E7%BC%A9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>腾讯云.xb格式备份文件数据库恢复到本地</title>
     <link href="https://www.wuzuoqiang.com//posts/6c6bcbac/"/>
     <id>https://www.wuzuoqiang.com//posts/6c6bcbac/</id>
     <published>2019-09-30T05:56:19.000Z</published>
-    <updated>2019-09-30T05:58:37.611Z</updated>
+    <updated>2019-09-30T05:58:47.711Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight ceylon"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xbstream -x &lt; test<span class="number">_</span><span class="keyword">import</span><span class="number">_57_</span>backup<span class="number">_20181114115236</span>.xb</span><br></pre></td></tr></table></figure><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qpress -d test_import_57_backup_20181114115236<span class="selector-class">.sql</span><span class="selector-class">.qp</span> .</span><br></pre></td></tr></table></figure>]]></content>
     
