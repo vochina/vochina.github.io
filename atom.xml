@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>吴佐强的博客</title>
+  <icon>https://www.gravatar.com/avatar/71113fb6279f3a7f228047c11e98560b</icon>
+  <subtitle>记录互联网技术的成长</subtitle>
+  <link href="https://www.wuzuoqiang.com/atom.xml" rel="self"/>
+  
+  <link href="https://www.wuzuoqiang.com/"/>
+  <updated>2019-12-24T03:40:09.000Z</updated>
+  <id>https://www.wuzuoqiang.com/</id>
+  
+  <author>
+    <name>吴佐强</name>
+    <email>wu@wuzuoqiang.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>反代微信图片nginx配置</title>
+    <link href="https://www.wuzuoqiang.com/posts/63f201dd/"/>
+    <id>https://www.wuzuoqiang.com/posts/63f201dd/</id>
+    <published>2019-12-24T03:37:41.000Z</published>
+    <updated>2019-12-24T03:40:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight nginx"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">location</span> <span class="regexp">~ /(.*)mmbiz(.*)/</span> {</span><br><span class="line">    <span class="attribute">proxy_pass</span>         http://mmbiz.qpic.cn;</span><br><span class="line"></span><br><span class="line">    <span class="attribute">proxy_set_header</span>   Host             <span class="string">"mmbiz.qpic.cn"</span>;</span><br><span class="line">    <span class="attribute">proxy_set_header</span>   Referer          <span class="string">""</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;spa</summary>
+      
+    
+    
+    
+    
+    <category term="微信图片 nginx配置" scheme="https://www.wuzuoqiang.com/tags/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87-nginx%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ffmpeg 压缩视频命令</title>
+    <link href="https://www.wuzuoqiang.com/posts/b6dce5c1/"/>
+    <id>https://www.wuzuoqiang.com/posts/b6dce5c1/</id>
+    <published>2019-09-30T06:02:07.000Z</published>
+    <updated>2019-09-30T06:03:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight cmake"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -i <span class="keyword">test</span>.mp4 -vcodec libx264 -preset veryslow  -crf <span class="number">28</span> <span class="keyword">test</span>-output.mp4</span><br></pre></td></tr></tbody></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight cmake&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;s</summary>
+      
+    
+    
+    
+    
+    <category term="ffmpeg 视频压缩" scheme="https://www.wuzuoqiang.com/tags/ffmpeg-%E8%A7%86%E9%A2%91%E5%8E%8B%E7%BC%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>腾讯云.xb格式备份文件数据库恢复到本地</title>
+    <link href="https://www.wuzuoqiang.com/posts/6c6bcbac/"/>
+    <id>https://www.wuzuoqiang.com/posts/6c6bcbac/</id>
+    <published>2019-09-30T05:56:19.000Z</published>
+    <updated>2019-09-30T05:58:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight ceylon"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xbstream -x &lt; test<span class="number">_</span><span class="keyword">import</span><span class="number">_57_</span>backup<span class="number">_20181114115236</span>.xb</span><br></pre></td></tr></tbody></table></figure><figure class="highlight stylus"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qpress -d test_import_57_backup_20181114115236<span class="selector-class">.sql</span><span class="selector-class">.qp</span> .</span><br></pre></td></tr></tbody></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight ceylon&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="腾讯云数据库恢复" scheme="https://www.wuzuoqiang.com/tags/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%95%B0%E6%8D%AE%E5%BA%93%E6%81%A2%E5%A4%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>删除所有git仓库提交历史，变成一个新仓库</title>
+    <link href="https://www.wuzuoqiang.com/posts/d0fee68c/"/>
+    <id>https://www.wuzuoqiang.com/posts/d0fee68c/</id>
+    <published>2018-05-12T13:16:11.000Z</published>
+    <updated>2018-05-12T13:21:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.新建latest_branch分支</p><figure class="highlight ada"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout <span class="comment">--orphan latest_branch</span></span><br></pre></td></tr></tbody></table></figure><ol start="2"><li>加入仓库<figure class="highlight routeros"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">add</span> -A</span><br></pre></td></tr></tbody></table></figure></li><li>提交更改<figure class="highlight nginx"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git</span> commit -am <span class="string">"something"</span></span><br></pre></td></tr></tbody></table></figure></li><li>删除master分支<figure class="highlight crmsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -D <span class="literal">master</span></span><br></pre></td></tr></tbody></table></figure>5.重命名当前分支为master<figure class="highlight crmsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m <span class="literal">master</span></span><br></pre></td></tr></tbody></table></figure>6.最后push到远程仓库<figure class="highlight maxima"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">push</span> -f <span class="built_in">origin</span> master</span><br></pre></td></tr></tbody></table></figure></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1.新建latest_branch分支&lt;/p&gt;
+&lt;figure class=&quot;highlight ada&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td</summary>
+      
+    
+    
+    
+    
+    <category term="git" scheme="https://www.wuzuoqiang.com/tags/git/"/>
+    
+    <category term="github" scheme="https://www.wuzuoqiang.com/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>同一电脑使用多个GitHub账号教程</title>
+    <link href="https://www.wuzuoqiang.com/posts/65b738fd/"/>
+    <id>https://www.wuzuoqiang.com/posts/65b738fd/</id>
+    <published>2018-05-12T12:42:45.000Z</published>
+    <updated>2018-05-12T12:56:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.Mac 下输入命令 ls ~/.ssh/，看到 id_rsa 与 id_rsa_pub 则说明已经有一对密钥。<br>2.生成新的公钥，并命名为 id_rsa_two (保证与之前密钥文件名称不同即可)</p><figure class="highlight arcade"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -f ~<span class="regexp">/.ssh/i</span>d_rsa_two -C <span class="string">"yourmail@xxx.com"</span></span><br></pre></td></tr></tbody></table></figure><p>3.在 .ssh 文件夹下新建 config 文件并编辑为以下内容，其中name.github.com的name为你的github用户名</p><figure class="highlight crmsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># default                                                                       </span></span><br><span class="line">Host github.com</span><br><span class="line">HostName github.com</span><br><span class="line"><span class="keyword">User</span> <span class="title">git</span></span><br><span class="line">IdentityFile ~/.ssh/id_rsa</span><br><span class="line"><span class="comment"># two                                                                           </span></span><br><span class="line">Host name.github.com</span><br><span class="line">HostName github.com</span><br><span class="line"><span class="keyword">User</span> <span class="title">git</span></span><br><span class="line">IdentityFile ~/.ssh/id_rsa_two</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure><p>4.将生成的 id_rsa.pub，id_rsa_two.pub内容copy 到你对应的github账号设置中<br>5.测试 ssh 链接，<a href="mailto:git@name.github.com">git@name.github.com</a>中name为你的用户名</p><figure class="highlight nginx"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">ssh</span> -T git<span class="variable">@name</span>.github.com</span><br><span class="line">ssh -T git<span class="variable">@github</span>.com</span><br><span class="line"><span class="comment"># Hi IEIT! You've successfully authenticated, but GitHub does not provide shell access.</span></span><br><span class="line"><span class="comment"># 出现上边这句，表示链接成功</span></span><br></pre></td></tr></tbody></table></figure><p>6.克隆新的项目，一般情况下，我们是通过如下的方式克隆一个项目：</p><figure class="highlight crmsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">clone</span> <span class="title">git</span>@github.com:your-account/your-prj.git</span><br></pre></td></tr></tbody></table></figure><p>我们需要对这个语句中的域名部分做一下修改：</p><figure class="highlight elixir"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 对应配置示例1</span></span><br><span class="line">git clone git<span class="variable">@xxxx</span><span class="symbol">:your-account/your-prj</span>.git</span><br><span class="line"><span class="comment"># 对应配置示例2</span></span><br><span class="line">git clone git<span class="variable">@my</span>-github-<span class="symbol">name.github.com:</span>your-account/your-prj.git</span><br></pre></td></tr></tbody></table></figure><p>7.取消全局 用户名/邮箱设置，并进入项目文件夹单独设置</p><figure class="highlight pf"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 取消全局 用户名/邮箱 配置</span></span><br><span class="line">git config –<span class="keyword">global</span> –unset <span class="keyword">user</span>.name</span><br><span class="line">git config –<span class="keyword">global</span> –unset <span class="keyword">user</span>.email</span><br><span class="line"><span class="comment"># 单独设置每个repo 用户名/邮箱</span></span><br><span class="line">git config <span class="keyword">user</span>.email “xxxx@xx.com”</span><br><span class="line">git config <span class="keyword">user</span>.name “xxxx”</span><br></pre></td></tr></tbody></table></figure><p>8.成功，可以 push 测试一下</p><figure class="highlight maxima"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">push</span> <span class="built_in">origin</span> master</span><br></pre></td></tr></tbody></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1.Mac 下输入命令 ls ~/.ssh/，看到 id_rsa 与 id_rsa_pub 则说明已经有一对密钥。&lt;br&gt;2.生成新的公钥，并命名为 id_rsa_two (保证与之前密钥文件名称不同即可)&lt;/p&gt;
+&lt;figure class=&quot;highlight arca</summary>
+      
+    
+    
+    
+    
+    <category term="git" scheme="https://www.wuzuoqiang.com/tags/git/"/>
+    
+    <category term="github" scheme="https://www.wuzuoqiang.com/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用mysqldump命令进行mysql数据库备份和还原</title>
+    <link href="https://www.wuzuoqiang.com/posts/4732cd9c/"/>
+    <id>https://www.wuzuoqiang.com/posts/4732cd9c/</id>
+    <published>2018-05-07T15:05:08.000Z</published>
+    <updated>2018-05-07T15:31:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、用dump命令备份dbfile数据库</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqldump -u root -p dbfile &gt; dbfile.sql</span><br></pre></td></tr></tbody></table></figure><p>2、用rsync从新服务器获得备份的文件（SCP或WGET也可以)</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -avr root@myolddbserver:/home/mydumpfolder/dbfile.sql </span><br></pre></td></tr></tbody></table></figure><p>3、登陆新服务器的mysql客户端</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br></pre></td></tr></tbody></table></figure><p>4、建立数据库</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create database dbfile;</span><br></pre></td></tr></tbody></table></figure><p>5、选择新数据库</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use dbfile;</span><br></pre></td></tr></tbody></table></figure><p>6、还原备份数据</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source dbfile.sql</span><br></pre></td></tr></tbody></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、用dump命令备份dbfile数据库&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/p</summary>
+      
+    
+    
+    
+    
+    <category term="mysqldump" scheme="https://www.wuzuoqiang.com/tags/mysqldump/"/>
+    
+    <category term="mysql" scheme="https://www.wuzuoqiang.com/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决SSH连接超时自动断开问题</title>
+    <link href="https://www.wuzuoqiang.com/posts/17d0d485/"/>
+    <id>https://www.wuzuoqiang.com/posts/17d0d485/</id>
+    <published>2018-05-07T14:56:05.000Z</published>
+    <updated>2018-05-07T15:01:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、编辑sshd_config文件</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Vim /etc/ssh/sshd_config</span><br></pre></td></tr></tbody></table></figure><p>2、找到以下配置并修改成如下</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ClientAliveInterval 60</span><br><span class="line">ClientAliveCountMax 3</span><br></pre></td></tr></tbody></table></figure><p>3、保存并退出，重启sshd</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></tbody></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、编辑sshd_config文件&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="SSH" scheme="https://www.wuzuoqiang.com/tags/SSH/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>路由器挂载mycloud使用迅雷离线</title>
+    <link href="https://www.wuzuoqiang.com/posts/d5fd7130/"/>
+    <id>https://www.wuzuoqiang.com/posts/d5fd7130/</id>
+    <published>2018-05-07T14:44:12.000Z</published>
+    <updated>2018-05-07T15:01:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；<br>2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mnt/nas</span><br><span class="line">mount -t nfs 192.168.1.8:/nfs/Public -o nolock /mnt/nas</span><br></pre></td></tr></tbody></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1、在路由器上安装迅雷路由器相应版本，可直接离线下载文件到同一局域网内的nas服务器上；&lt;br&gt;2、ssh登入路由器，执行以下命令，IP换成你自己的nas服务器IP&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="路由器" scheme="https://www.wuzuoqiang.com/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+    <category term="mycloud" scheme="https://www.wuzuoqiang.com/tags/mycloud/"/>
+    
+    <category term="迅雷离线下载" scheme="https://www.wuzuoqiang.com/tags/%E8%BF%85%E9%9B%B7%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git 基本命令</title>
+    <link href="https://www.wuzuoqiang.com/posts/d361ebf7/"/>
+    <id>https://www.wuzuoqiang.com/posts/d361ebf7/</id>
+    <published>2018-04-11T09:53:16.000Z</published>
+    <updated>2018-04-11T10:15:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.安装：略<br>2.设置用户名和Email地址</p><figure class="highlight stylus"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config <span class="attr">--global</span> user<span class="selector-class">.name</span> <span class="string">"your name"</span></span><br><span class="line">git config <span class="attr">--global</span> user<span class="selector-class">.email</span> <span class="string">"email@xxxxx.com"</span></span><br></pre></td></tr></tbody></table></figure><p>3.创建版本库（工作区） 在你需要建立版本库的文件夹执行 git init 命令建立仓库</p><figure class="highlight csharp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">init</span></span><br></pre></td></tr></tbody></table></figure><p>4.把文件添加到仓库（暂存区） git add 文件名<br>把当前文件夹中的所有修改都提交到暂存区</p><figure class="highlight routeros"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">add</span> .</span><br></pre></td></tr></tbody></table></figure><p>5.把文件提交到仓库（当前分支）</p><figure class="highlight nginx"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git</span> commit -m <span class="string">"提交的说明"</span></span><br></pre></td></tr></tbody></table></figure><p>6.查看仓库当前状态</p><figure class="highlight ebnf"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git status</span></span><br></pre></td></tr></tbody></table></figure><p>7.文件有修改但还未提交（git add 文件名），查看修改的不同之处</p><figure class="highlight ebnf"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git diff</span></span><br></pre></td></tr></tbody></table></figure><p>8.显示提交日志</p><figure class="highlight 1c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></tbody></table></figure><p>9.版本回退</p><p>HEAD是当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，往上50个版本就写成HEAD~50</p><figure class="highlight pgsql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard HEAD^</span></span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard 版本号</span></span><br></pre></td></tr></tbody></table></figure><p>10.显示提交过的命令，可以查看版本号</p><figure class="highlight angelscript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">ref</span>log</span><br></pre></td></tr></tbody></table></figure><p>11.还未提交到暂存区撤销工作区的修改</p><figure class="highlight ada"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout <span class="comment">-- 文件名</span></span><br></pre></td></tr></tbody></table></figure><p>12.还未提交到仓库（当前分支）撤销修改到暂存区，再撤销到工作区</p><figure class="highlight pgsql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD 文件名</span><br><span class="line">git checkout <span class="comment">-- 文件名</span></span><br></pre></td></tr></tbody></table></figure><p>13.删除文件</p><p>直接删除后想还原</p><figure class="highlight ada"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout <span class="comment">-- 文件名</span></span><br></pre></td></tr></tbody></table></figure><p>直接删除并且从版本库中删除</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">rm</span> 文件名 </span><br><span class="line">git commit -m <span class="string">"提交的说明"</span></span><br></pre></td></tr></tbody></table></figure><p>还原，使用版本回退</p><figure class="highlight pgsql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard 版本号</span></span><br></pre></td></tr></tbody></table></figure><p>14.分支</p><p>创建分支 git branch 分支名字 切换分支 git checkout 分支名字 创建并切换分支 git checkout -b 分支名字 查看当前分支 git branch 把dev分支合并到master分支 git merge dev (git merge命令用于合并指定分支到当前分支) 删除分支 git branch -d 分支名字</p><p>15.远程仓库(先有本地库，后有远程库的时候，如何关联远程库)</p><p>创建sshkey</p><figure class="highlight excel"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -<span class="built_in">t</span> rsa -C <span class="string">"用户邮箱"</span></span><br></pre></td></tr></tbody></table></figure><p>用户主目录的.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，id_rsa.pub是公钥 关联远程仓库</p><figure class="highlight mipsasm"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote <span class="keyword">add </span><span class="keyword">origin </span>远程库地址</span><br></pre></td></tr></tbody></table></figure><p>关联后，使用命令git push -u origin master第一次推送master分支的所有内容； 此后，每次本地提交后，就可以使用命令git push origin master推送最新修改</p><p>16.从远程库克隆一个本地库</p><figure class="highlight crmsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">clone</span> <span class="title">远程库地址</span></span><br></pre></td></tr></tbody></table></figure><p>git自动把本地的master分支和远程的master分支对应起来了 查看远程库的信息，用git remote，git remote -v显示更详细的信息</p><p>17.更新本地库</p><figure class="highlight ebnf"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git pull</span></span><br></pre></td></tr></tbody></table></figure><p>18.推送到远程库</p><figure class="highlight avrasm"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">add</span></span><br><span class="line">git commit</span><br><span class="line">git <span class="keyword">push</span></span><br></pre></td></tr></tbody></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1.安装：略&lt;br&gt;2.设置用户名和Email地址&lt;/p&gt;
+&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="git" scheme="https://www.wuzuoqiang.com/tags/git/"/>
+    
+  </entry>
+  
+</feed>
