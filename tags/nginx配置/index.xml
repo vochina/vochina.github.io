@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Nginx配置 on 吴佐强的博客</title>
+        <link>https://blog.wuzuoqiang.com/tags/nginx%E9%85%8D%E7%BD%AE/</link>
+        <description>Recent content in Nginx配置 on 吴佐强的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>吴佐强</copyright>
+        <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.wuzuoqiang.com/tags/nginx%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>反代微信公众号文章图片nginx配置</title>
+        <link>https://blog.wuzuoqiang.com/p/proxy-wechat-image-nginx-config/</link>
+        <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.wuzuoqiang.com/p/proxy-wechat-image-nginx-config/</guid>
+        <description>&lt;img src="https://blog.wuzuoqiang.com/p/proxy-wechat-image-nginx-config/nginx.jpg" alt="Featured image of post 反代微信公众号文章图片nginx配置" /&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    location ~ /&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;.*&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;mmbiz&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;.*&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;/ &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        proxy_pass         http://mmbiz.qpic.cn&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        proxy_set_header   Host             &lt;span class=&#34;s2&#34;&gt;&amp;#34;mmbiz.qpic.cn&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        proxy_set_header   Referer          &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

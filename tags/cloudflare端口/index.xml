@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Cloudflare端口 on 吴佐强的博客</title>
+        <link>https://blog.wuzuoqiang.com/tags/cloudflare%E7%AB%AF%E5%8F%A3/</link>
+        <description>Recent content in Cloudflare端口 on 吴佐强的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>吴佐强</copyright>
+        <lastBuildDate>Thu, 06 Jun 2024 00:56:06 +0800</lastBuildDate><atom:link href="https://blog.wuzuoqiang.com/tags/cloudflare%E7%AB%AF%E5%8F%A3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cloudflare默认支持的端口</title>
+        <link>https://blog.wuzuoqiang.com/p/cloudflare-supported-ports/</link>
+        <pubDate>Thu, 06 Jun 2024 00:56:06 +0800</pubDate>
+        
+        <guid>https://blog.wuzuoqiang.com/p/cloudflare-supported-ports/</guid>
+        <description>&lt;img src="https://blog.wuzuoqiang.com/p/cloudflare-supported-ports/cloudflare.webp" alt="Featured image of post Cloudflare默认支持的端口" /&gt;&lt;h3 id=&#34;cloudflare-默认代理发往下列-httphttps-端口的流量&#34;&gt;Cloudflare 默认代理发往下列 HTTP/HTTPS 端口的流量。
+&lt;/h3&gt;&lt;h4 id=&#34;http-端口&#34;&gt;HTTP 端口：
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;80&lt;/li&gt;
+&lt;li&gt;8080&lt;/li&gt;
+&lt;li&gt;8880&lt;/li&gt;
+&lt;li&gt;2052&lt;/li&gt;
+&lt;li&gt;2082&lt;/li&gt;
+&lt;li&gt;2086&lt;/li&gt;
+&lt;li&gt;2095&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;https-端口&#34;&gt;HTTPS 端口：
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;443&lt;/li&gt;
+&lt;li&gt;2053&lt;/li&gt;
+&lt;li&gt;2083&lt;/li&gt;
+&lt;li&gt;2087&lt;/li&gt;
+&lt;li&gt;2096&lt;/li&gt;
+&lt;li&gt;8443&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

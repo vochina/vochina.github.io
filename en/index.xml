@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Wuzuoqiang&#39;s blog</title>
+        <link>https://blog.wuzuoqiang.com/en/</link>
+        <description>Recent content on Wuzuoqiang&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>吴佐强</copyright>
+        <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.wuzuoqiang.com/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>https://blog.wuzuoqiang.com/en/about/</link>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.wuzuoqiang.com/en/about/</guid>
+        <description>&lt;p&gt;This is a personal blog of Wu Zuoqiang, mainly recording some technical articles, as well as some life insights.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
